@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-image: url(city.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    height: 99vh;
+
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 183, 255, 0.404);
+    width: 100%;
+}
